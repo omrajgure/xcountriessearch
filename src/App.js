@@ -87,10 +87,7 @@ export default function App() {
 
   return (
     <div>
-      <div
-        style={{ backgroundColor: "rgba(0,0,0,0.1)" }}
-        className="countryCard"
-      >
+      <div style={{ backgroundColor: "rgba(0,0,0,0.1)" }}>
         <form
           style={searchBoxContainer}
           onSubmit={(e) => {
