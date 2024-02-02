@@ -86,7 +86,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className="countryCard">
       <div style={{ backgroundColor: "rgba(0,0,0,0.1)" }}>
         <form
           style={searchBoxContainer}
